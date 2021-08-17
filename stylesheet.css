@@ -1,0 +1,171 @@
+.title {
+  height: 100px;
+  width: 1000px;
+}
+
+.title h1 {
+  float: left;
+  padding-left: 30px;
+  margin-top: 30px;
+}
+
+.title li {
+  float: right;
+  padding: 10px;
+  list-style: none;
+  border-right: 1px solid black;
+  margin-top: 30px;
+}
+
+.box{
+  position: relative;
+}
+
+.box img {
+  width: 1200px;
+  height: 700px;
+}
+
+.box ul{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.box li {
+  border: 2px solid white;
+  background-color: white;
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 500px;
+  float: right;
+  list-style: none;
+}
+
+.notification {
+  margin: 50px;
+}
+
+.notification h1 {
+  border-left: 5px solid red;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.notification p {
+  width: 1000px;
+  padding: 10px;
+  margin-left: 20px;
+  border-bottom: 1px solid #C0C0C0;
+}
+
+.information {
+  margin: 30px;
+  background-color: #fff8dc;
+  padding: 10px;
+  width: 1100px;
+  float: left;
+}
+
+.info {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 20px;
+}
+
+.y_line {
+  margin: 10px;
+  height: 300px;
+  width: 1px;
+  background-color: #C0C0C0;
+  float: left;
+}
+
+
+.information span {
+  padding: 5px 30px;
+  border-radius: 20px / 50%;
+  background-color: orange;
+}
+
+.clear_box {
+  clear:  both; 
+}
+
+
+.career {
+  margin: 10px 50px;
+  padding: 0px;
+  float: left;
+
+}
+
+.career_detail {
+  width: 500px;
+  height: 300px;
+  float: left;
+  margin: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.career_detail li {
+  border: 1px solid white;
+  padding: 5px;
+  margin: 3px;
+  list-style: none;
+  background-color: white;
+}
+
+.career_detail h2 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: white;
+}
+
+.career_detail ul {
+  position: absolute;
+  top: 80px;
+  left: 30px;
+}
+
+.career_detail img {
+  width: 500px;
+  height: 300px;
+  
+}
+
+
+
+.footer {
+  margin: 20px;
+  background-color: #EEEEEE;
+  padding: 10px;
+  width: 1100px;
+  float: left;
+  
+}
+
+.footer_info {
+  width: 300px;
+  height: 200px;
+  float: left;
+  margin: 20px;
+}
+
+.footer_dep {
+  width: 300px;
+  height: 200px;
+  float: left;
+  margin: 20px;
+}
+
+.footer_qa {
+  width: 300px;
+  height: 200px;
+  float: left;
+  margin: 20px;
+}
+
